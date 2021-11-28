@@ -9,21 +9,21 @@ void example1(const int a) {
 	int b = a * 7;
 	// This does not work because we have designated a as a constant.
 	// a = 7;
-	std::cout << b;
+	std::cout << b << "\n";
 }
 
 void example2(const int a) {
 	int b = a * 7;
 	// This does not work because we have designated a as a constant and we are inputting a constant
 	// a = 7;
-	std::cout << b;
+	std::cout << b << "\n";
 }
 
 void example3(int a) {
 	int b = a * 7;
 	// This will work and a will change for this function
 	a = 7;
-	std::cout << a;
+	std::cout << a << "\n";
 }
 
 int main() {
